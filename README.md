@@ -27,6 +27,6 @@ Typed.js: Untuk efek pengetikan teks
 Font Awesome: Untuk ikon media sosial dan prestasi
 
 🔹**Cara Menjalankan Proyek**
-1. Clone repository ini • git clone https://github.com/FarichaDillia/Portofolio-Faricha-Dillia.git
+1. Clone repository ini • git clone https://github.com/dimashadiprabowo/Portofolio-Dimas-Hadi-Prabowo
 2. Buka file index.html di browser • Gunakan Live Server di VS Code (jika diinginkan).
 3. Selesai!
