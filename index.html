@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Saya</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="logo">Portfolio Saya</div>
+        <ul>
+            <li><a href="#beranda">Beranda</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#prestasi">Prestasi</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="beranda" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Halo, Saya <span class="highlight">Dimas Hadi Prabowo</span></h1>
+                <p> <span class="typing-text"></span></p>
+                <div class="social-links">
+                    <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                </div>
+                <a href="#portfolio" class="cta-button">Lihat Karya Saya</a>
+            </div>
+            <div class="hero-image">
+                <img src="dimas.png" alt="Foto Profil">
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <h2>Portfolio Saya</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <img src="pmm.png" alt="Proyek 1">
+                    <div class="project-info">
+                        <h3>Program Pertukaran Mahasiswa</h3>
+                        <p>Mengikuti program pertukaran pelajar yang memberikan pengalaman belajar di
+                            lingkungan baru. Mengembangkan keterampilan komunikasi lintas budaya,
+                            adaptasi, dan kerja sama tim. Mendapatkan wawasan baru tentang sistem
+                            pendidikan, budaya, serta memperluas jaringan profesional dan akademik</p>
+                        <a href="#" class="project-link">Lihat Detail</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="sinelayan.png" alt="Proyek 2">
+                    <div class="project-info">
+                        <h3>Si Nelayan</h3>
+                        <p>Si Nelayan adalah project UI/UX yang di bangun berdasarkan problem solve
+                            yang dapat di kembangkan, saya membuat project tersebut bersama rekan 
+                            saya untuk berpatisipasi dalam perlombaan antar mahasiswa</p>
+                        <a href="#" class="project-link">Lihat Detail</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="keuangan.png" alt="Proyek 3">
+                    <div class="project-info">
+                        <h3>Website Keuangan</h3>
+                        <p>Saya membuat dan mengembangkan website Keuangan yang berfungsi
+                            untuk memantau pemasukan dan pengeluaran karyawan dan perusahaan
+                            secara real-time</p>
+                        <a href="#" class="project-link">Lihat Detail</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="prestasi">
+        <div class="container">
+            <h2>Prestasi Saya</h2>
+            <div class="achievement-grid">
+                <div class="achievement-card clickable-achievement">
+                    <i class="fas fa-award"></i>
+                    <h3>Sertifikasi Seminar</h3>
+                    <p>Aktif dalam berpatisipasi Seminar dan Webinar</p>
+                </div>
+                <div class="achievement-card clickable-achievement">
+                    <i class="fas fa-trophy"></i>
+                    <h3>Juara Lomba Non Akademik</h3>
+                    <p>Tingkat siswa tahun 2022</p>
+                </div>
+                <div class="achievement-card">
+                    <i class="fas fa-certificate"></i>
+                    <h3>Penghargaan Inovasi</h3>
+                    <p>Kategori teknologi terbarukan</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Hubungi Saya</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h3>Informasi Kontak</h3>
+                    <p><i class="fas fa-envelope"></i> dimashadi1112@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +62 82328534179</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Bekasi, Jawa Barat, Indonesia</p>
+                </div>
+                <form id="contact-form">
+                    <input type="text" name="name" placeholder="Nama Anda" required>
+                    <input type="email" name="email" placeholder="Email Anda" required>
+                    <textarea name="message" placeholder="Pesan Anda" required></textarea>
+                    <button type="submit" class="submit-button">Kirim Pesan</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div id="sertifikasi-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Sertifikasi Seminar</h2>
+            <img src="Sertifikat.png" alt="Sertifikasi Seminar">
+            <img src="sertifikat2.png" alt="Sertifikasi Seminar">
+            <img src="sertifikat3.png" alt="Sertifikasi Seminar">
+            <img src="sertifikat4.png" alt="Sertifikasi Seminar">
+            <img src="sertifikat5.jpg" alt="Sertifikasi Seminar">
+            <img src="sertifikat6.png" alt="Sertifikasi Seminar">
+            <img src="sertifikat7.png" alt="Sertifikasi Seminar">
+        </div>
+    </div>
+
+    <div id="lomba-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Juara Lomba Non Akademik</h2>
+            <img src="dim1.jpg" alt="Sertifikat Lomba">
+            <img src="juara2.jpg" alt="Sertifikat Lomba">
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Portfolio Saya. Hak Cipta Dilindungi.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
