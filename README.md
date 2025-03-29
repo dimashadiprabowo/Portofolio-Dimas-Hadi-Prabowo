@@ -1,6 +1,6 @@
 **Portofolio Dimas Hadi Prabowo**
 
-🔹**Deskripsi :** Portfolio Dimas Hadi Prabowo adalah sebuah proyek personal yang dibuat untuk menampilkan karya, prestasi, dan informasi kontak. Website ini dikembangkan menggunakan HTML, CSS, dan JavaScript murni (vanilla) tanpa framework tambahan. Tampilan responsif dan interaktif dengan animasi dan modal untuk memaksimalkan pengalaman pengguna.
+🔹**Deskripsi :** Portfolio Dimas Hadi Prabowo adalah sebuah proyek personal yang dibuat untuk menampilkan karya, prestasi, dan informasi kontak. Website ini dibuat menggunakan HTML, CSS, dan JavaScript tanpa framework tambahan. Tampilan responsif dan interaktif dengan animasi dan modal untuk memaksimalkan hasil portofolio.
 
 🔹**Fitur**
 - **Navigasi yang Responsif**: Menu navigasi tetap (fixed) di bagian atas halaman dengan efek scroll halus ke setiap bagian.
